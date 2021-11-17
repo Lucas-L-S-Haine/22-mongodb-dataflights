@@ -1,1 +1,1 @@
-db.dataFlights.voos.count();
+db.voos.count();
