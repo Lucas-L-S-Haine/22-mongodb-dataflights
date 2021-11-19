@@ -1,4 +1,4 @@
-const erase = db.voos
+ db.voos
   .deleteMany(
     { $and: [
       { litrosCombustivel: { $exists: true } },
@@ -6,4 +6,3 @@ const erase = db.voos
       { litrosCombustivel: { $lt: 400 } },
     ] },
   );
-erase;
